@@ -59,6 +59,7 @@
     "@types/morgan": "^1.9.9",
     "@types/node": "^22.9.0",
     "@types/supertest": "^6.0.2",
+    "cross-env": "^7.0.3",
     "eslint": "^9.15.0",
     "eslint-plugin-n": "^17.13.2",
     "find": "^0.3.0",
