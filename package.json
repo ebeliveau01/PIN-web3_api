@@ -3,12 +3,12 @@
   "version": "0.0.1",
   "scripts": {
     "build": "npx ts-node ./scripts/build.ts",
-    "dev": "cross-env NODE_ENV=development nodemon",
+    "dev": "nodemon",
     "dev:hot": "cross-env NODE_ENV=development nodemon --exec \"npm run dev\" --watch ./src -e ts",
     "lint": "npx eslint ./src",
     "lint:tests": "npx eslint ./spec",
-    "start": "cross-env NODE_ENV=production node -r ./preload.js",
-    "test": "cross-env NODE_ENV=test npx ts-node ./spec",
+    "start": "node -r ./preload.js",
+    "test": "npx ts-node ./spec",
     "test:hot": "nodemon --exec \"npm run test\" --watch ./src --watch ./spec -e ts"
   },
   "nodemonConfig": {
