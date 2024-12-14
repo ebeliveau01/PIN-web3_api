@@ -1,13 +1,11 @@
-## About
+# API Project
 
-Ce projet à été créé avec: [express-generator-typescript](https://github.com/seanpmaxwell/express-generator-typescript).
+## Installation de l'API sur un poste local
 
-## Instruction d'installation
+```bash
+git clone <URL-du-repository>
+cd <dossier-du-projet>
+npm install
 
-### git clone
+npm start
 
-Dans le dossier du projet
-
-### npm install
-
-### npm run dev
