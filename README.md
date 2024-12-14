@@ -1,35 +1,27 @@
-## About
+# API Project
 
-This project was created with [express-generator-typescript](https://github.com/seanpmaxwell/express-generator-typescript).
+## Installation de l'API sur un poste local
 
+```bash
+git clone <URL-du-repository>
+cd <dossier-du-projet>
+npm install
 
-## Available Scripts
+npm start
+```
 
-### `npm run dev` or `npm run dev:hot` (hot reloading)
+## Ajuster la variable suivante :
 
-Run the server in development mode.
+MONGO_URI=mongodb://<utilisateur>:<mot-de-passe>@<hôte>:<port>/<nom-de-la-base-de-données>
 
-### `npm test` or `npm run test:hot` (hot reloading)
+Lancez l'API :
 
-Run all unit-tests.
+```bash
+npm start
+```
 
-### `npm test -- "name of test file" (i.e. users).`
+Création de la base de données
+Assurez-vous que MongoDB est installé et en cours d'exécution sur votre machine ou utilisez un service comme MongoDB Atlas.
 
-Run a single unit-test.
-
-### `npm run lint`
-
-Check for linting errors.
-
-### `npm run build`
-
-Build the project for production.
-
-### `npm start`
-
-Run the production build (Must be built first).
-
-
-## Additional Notes
-
-- If `npm run dev` gives you issues with bcrypt on MacOS you may need to run: `npm rebuild bcrypt --build-from-source`. 
+# Url Api
+https://pin-web3-api.onrender.com
